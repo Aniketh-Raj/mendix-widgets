@@ -17,13 +17,22 @@
                         <attributeType name="String"/>
                     </attributeTypes>
                 </property>
-                <property key="labelAttribute" type="attribute" >
+                <!-- <property key="labelAttribute" type="attribute" >
                     <caption>Attribute (path)</caption>
                     <description/>
                     <attributeTypes>
                         <attributeType name="String"/>
                     </attributeTypes>
-                </property>
+                </property> -->
+                <property key="labelAttribute" type="textTemplate">
+            	<caption>Input Label</caption>
+            	<description>Label for the input</description>
+            	<translations>
+            		<translation lang="en_US">Label</translation>
+            		<translation lang="nl_NL">Label</translation>
+            		<translation lang="uk_UA">Label</translation>
+            	</translations>
+            </property>
             </propertyGroup>
             <propertyGroup caption="Label">
                 <systemProperty key="Label" />

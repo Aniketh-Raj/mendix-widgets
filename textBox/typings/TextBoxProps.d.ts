@@ -3,14 +3,14 @@
  * WARNING: All changes made to this file will be overwritten
  * @author Mendix Widgets Framework Team
  */
-import { EditableValue } from "mendix";
+import { DynamicValue, EditableValue } from "mendix";
 
 export interface TextBoxContainerProps {
     name: string;
     tabIndex?: number;
     id: string;
     textAttribute: EditableValue<string>;
-    labelAttribute: EditableValue<string>;
+    labelAttribute: DynamicValue<string>;
 }
 
 export interface TextBoxPreviewProps {

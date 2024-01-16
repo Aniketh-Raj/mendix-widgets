@@ -10,7 +10,7 @@
   },
   "license": "Apache-2.0",
   "config": {
-    "projectPath": "C:\\\\Users\\\\aniketh\\\\Mendix\\\\LocalPlayground9247-main",
+    "projectPath": "D:\\\\Mendix-Apps\\\\sfm-core-dev",
     "mendixHost": "http://localhost:8080",
     "developmentPort": 3000
   },
